@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    body{
+        background-color: rgb(245, 238, 238);
+    }
+    .heading
+    { 
+        text-shadow: #061b2b;
+       
+        position: absolute;
+        top: 10px;
+        left:200px
+
+    }
+    .box1
+    {
+     position: absolute;
+     top: 130px;
+     right: 5px;
+      background-color: antiquewhite;
+      width:fit-content;
+      border: 10px black ;
+      padding: 20px;
+      margin:20px
+    }
+    
+   
+    .box2
+    {
+       position: absolute;
+       top: 240px;
+      border-radius: 10%;
+      background-color: antiquewhite;
+      width: 600px;
+      border: 10px black ;
+      padding: 20px;
+      margin:20px
+    }
+    .box3
+    {
+       
+     border-radius: 10%;
+      position: absolute;
+      top: 450px;
+      background-color: antiquewhite; 
+      width: 600px;
+      border: 10px black ;
+      padding: 20px;
+      margin:20px
+    }
+    image
+    {
+        position: absolute;
+        top: 100px;
+        left: 1px;
+        border-radius: 100%;
+    border-color: black;
+    
+    }
+    .box4
+    {
+        position: absolute;
+        top: 250px;
+        right:10px;
+        border-radius: 10%;
+      background-color: antiquewhite;
+      width: 500px;
+      border: 10px black ;
+      padding: 20px;
+      margin:20px  
+    }
+    .box5
+    {
+        position: absolute;
+        top: 1000px;
+       border-radius: 10%;
+      background-color: antiquewhite; 
+      width: 600px;
+      border: 10px black ;
+      padding: 20px;
+      margin:20px
+    }
+    .box6
+    {
+      position: absolute;
+      left: 1px;
+      top: 770px; 
+     border-radius: 10%;
+     background-color: antiquewhite; 
+      width: 600px;
+      border: 10px black ;
+      padding: 20px;
+      margin:20px
+    }
+    .box7
+    {
+      position: absolute;
+      right: 1px;
+     top: 550px;
+     border-radius: 10%;
+     background-color: antiquewhite; 
+      width: 600px;
+      border: 10px black ;
+      padding: 20px;
+      margin:20px
+    }
+    .box8
+    {
+      position: absolute;
+      right: 1px;
+     top: 250px;
+     border-radius: 10%;
+     background-color: antiquewhite; 
+      width: 600px;
+      border: 10px black ;
+      padding: 20px;
+      margin:20px
+    }
+
+    p.space1
+    {
+    word-spacing: 150px;
+    }
+    p.space2{
+        word-spacing: 140px;
+    }
+    p.space3{
+        word-spacing: 120px;
+    }
+    p.space4{
+        word-spacing: 10px;
+    }
+    .center
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+</head>
+<body>
+
+   <div class="image">
+      <img src="resumegirl.jpeg" width="170px" height="200px">
+   </div>
+
+    <div class="heading" style="background-color:rgb(212, 235, 223); width: 100%;" >
+        <h1>Preethi Ruth</h1>
+        <h2>Full Stack Python Developer</h2>
+     </div>
+
+      <div class="box1">
+        <table style="background-color:rgb(212, 235, 223); width: max-content;"cellpadding="20";cellspacing="500" class="center" >
+            <tr >
+                <th style="font-size: 150%;" >
+                    <i class="fa-solid fa-envelope" style="color: black;"></i>
+                    <a href="mailto:preethiruth777@gmail.com">preethiruth777@gmail.com</a>
+                </th>
+                <th style="font-size: 150%;">
+                    <i class="fa-solid fa-mobile" style="color: #142939;"></i>
+                    <a href="#contact">878-8843-9397</a>
+                </th>
+                <th style="font-size: 150%;">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <a href="#location">California,USA</a>
+                </th>
+                <th style="font-size: 150%;">
+                    <i class="fa-brands fa-linkedin"></i>
+                     <a href=linkedin>linkedin.com/abc</a>
+                </th>
+                
+            </tr>
+        </table>
+    </div>
+    <div style="font-size: 120%;"  class="box2">
+        <h2> Summary</h2>
+        <hr style="height:4px;border-width:0;background-color:rgb(139, 194, 226)">
+        <p> learner and enthusiastic IT professional with 2 years of experience seeking to expand knowledge and contribute to a growing organization. Skilled 
+            in java and python and eager to learn new technologies. Strong work ethic and a team player</p>
+     </div>
+
+    
+
+   <div style="font-size: 120%;" class="box3">
+    <h2>Experience</h2>
+    <hr style="height:4px;border-width:0;background-color:rgb(139, 194, 226)">
+    <p>Software Developer with 2 years of experience building and maintaining software applications
+         using Java and Python. Proven ability to [mention a key achievement, e.g., design and implement a new
+          feature that increased user engagement by 20%]. Skilled in [mention 2-3 relevant technical skills,
+        e.g., object-oriented programming, web development frameworks (e.g., Django, Spring Boot)]. 
+        Eager to contribute to a challenging and collaborative development environment.</p>
+    </div>  
+    
+    <div style="font-size: 120%;" class="box4">
+        
+        <h2>Skills</h2>
+        <hr style="height:4px;border-width:0;background-color:rgb(139, 194, 226)">
+        <p class="space1">Sql <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i></p>
+        <p class="space2">Java <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i></p>
+        <p class="space3">python <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i></p>    
+        <p class="space4">Html,CSS,JavaScript <i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i><i class="fa-solid fa-star fa-xs"></i></p>
+            
+       
+    </div>
+
+    <div style="font-size: 120%;" class="box5">
+        <h2>Education </h2>
+        <hr style="height:4px;border-width:0;background-color:rgb(139, 194, 226)">
+        <table>
+            <tr>
+                <th>Masters in Computer Science</th>
+              <tr>
+                <td> University of Delhi, Delhi</td>     
+               <td> 2019</td>
+             </tr>
+             <tr></tr>
+            <tr>
+                <th>B.Tech in Computer Science</th>
+              <tr>
+                <td> University of Delhi, Delhi</td>     
+               <td> 2011</td>
+           
+            </tr>
+        </table>
+
+
+    </div>
+
+      <div style="font-size: 120%;" class="box6" >
+        <h2>Internships </h2>
+        <hr style="height:4px;border-width:0;background-color:rgb(139, 194, 226)">
+        <ul style="list-style: circle;">
+
+       <li>worked as a intern in "WEb DEvelopment" team in Y! software solutions,hightech city at 2016</li>
+       <li>worked as a intern in "WEb DEvelopment" team in Y! software solutions,hightech city at 2016</li>
+    </ul>
+    </div>
+    <div style="font-size: 120%;" class="box7">
+        <h2>projects </h2>
+        <table style="background-color:rgb(212, 235, 223); width: max-content;"cellpadding="20";cellspacing="500" class="center" >
+            <hr style="height:4px;border-width:0;background-color:rgb(139, 194, 226)">
+        <ol style="list-style: decimal;"> 
+            <li>To-Do List App with Gamification (Individual Project):
+            <p><strong>Description:</strong> Build a to-do list app with features like adding, editing,
+                 and marking tasks complete. Incorporate gamification elements like earning points for 
+                 completing tasks, unlocking badges, and competing with friends (optional).</p></li>
+           
+
+    </div>  
+    <div style="font-size: 120%;" class="box8">
+        <h2>Languages </h2>
+        <hr style="height:4px;border-width:0;background-color:rgb(139, 194, 226)">
+        
+        <p class="space4">English <i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i></p>
+        <p class="space4">Hindi <i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i></p>  
+        <p class="space4">Telugu <i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i><i class="fa-solid fa-circle-check"></i></p>
+    </div>
+
+    </div>
+
+      
+        
+    
+    
+
+    
+
+</body>
+</html>
