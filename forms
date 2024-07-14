@@ -1,1 +1,92 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>registrationform"></form></title>
+</head>
+<body>
+    <h1>Registrationform </h1>
+    <form action="https://www.w3schools.com/html/html_forms_attributes.asp" method="get">
+        <div>
+            <label for="un">Student Username     </label>
+            <input type="text" placeholder="enter your name" id="un" value="sophie" required readonly >
+        </div>
+        <div>
+            <label for="pwd">Enter password  </label>
+            <input type="text" placeholder="enter password" id="pwd" minlength="6" maxlength="10" >
+        </div>
+        <div>
+            <label for="em">Enter Email   </label>
+            <input type="email" placeholder="enter a valid email address" id="em">
+        </div>
+        <div>
+            <label for="ag">Enter age    </label>
+            <input type="number" placeholder="enter age" id="ag" min="18" max="21">
+        </div>
+        <div>
+            <label for="dob">date of birth </label>
+            <input type="date" id="dob">
+        </div>
+        <div>
+            <label for="cn">Contact number  </label>
+            <input type="tel" id="cn" maxlength="10" >
+        </div>
+        <div>
+            <label for="">Gender    </label>
+
+            <input type="radio" value="Male" id="m" name="gender">
+            <label for="m">Male  </label>
+
+            <input type="radio" value="Female" id="f" name="gender">
+            <label for="f">Female  </label>
+           
+        </div>
+        <div>
+            <label for="">Skills</label>
+            
+            <input type="checkbox" value="Java" id="j" name="Skills" >
+            <label for="j">JAVA</label>
+
+            <input type="checkbox" value="Python" id="p" name="Skills" >
+            <label for="p">PYTHON</label>
+           
+            <input type="checkbox" value="HTML" id="h" name="Skills" >
+            <label for="h">HTML</label>
+
+            <input type="checkbox" value="Javascript" id="js" name="Skills" >
+            <label for="js">JAVASCRIPT</label>
+        </div>
+        <div>
+            <label for="country">Select Country</label>
+            <select name="country" id="country">
+                <option value="in">INDIA</option>
+                <option value="us">USA</option>
+                <option value="uk">UNITED KINGDOM</option>
+                <option value="ch">CHINA</option>
+                <option value="sz">SWITZERLAND</option>
+            </select>
+        </div>
+        <div>
+            <label for="br">Select Branch  </label>
+            <select name="branch" id="br">
+                <optgroup label="engg">ENGINEERING</optgroup>
+                   <option value="cse">CSE</option>
+                   <option value="ece">ECE</option>
+                   <option value="eee">EEE</option>
+                   <option value="mech">MECH</option>
+                <optgroup label="degree">DEGREE</optgroup>
+                   <option value="bse">BSE</option>
+                   <option value="bcom">B.COM</option>
+                   <option value="mba">MBA</option>
+                
+            </select>
+        </div>
+         <div>
+            <button>Submit</button>
+            <input type="reset" value="reset">
+        </div>
+    </form>
+</body>
+</html>
